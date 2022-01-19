@@ -1,0 +1,40 @@
+body
+{
+    background-color:blanchedalmond;
+    color:black;
+    text-align: center;
+}
+h2
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+button
+{
+    border-radius: 25%;
+}
+nav ul
+{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+nav li
+{    
+    margin-top: 1.5rem;
+    margin-right: 2rem;
+}
+nav a
+{
+    color:#CAD959;
+    text-decoration: none;
+    padding: 0.15rem 1.5rem;
+    border: solid 0.15rem transparent;
+}
+nav a:hover
+{
+    border: solid 0.15rem #CAD959;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>VCS Övning 1</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/index.html">Index</a></li>
+            <li><a href="/html/terms.html">Terminologi</a></li>
+            <li><a href="/html/repository.html">Terminologi2</a></li>
+        </ul>
+    </nav>
+    <h2>Här förklarar jag följande termer</h2>
+    <article>
+        <h2>Commit</h2>
+        <p>
+            Commit är när man "sparar" sitt arbete, men man måste "pusha" det för att det ska komma in i servern
+        </p>
+        <h2>Push</h2>
+        <p>
+            Uppdaterar grenen med ens commits man gjort på grenen man arbetar på.
+        </p>
+        <h2>Pull</h2>
+        <p>
+            Om någon har ändrat på något i en seperat gren och vill att det ska bli kollat på och tillagt i huvudgrenen,
+            så kan den personen lägga in en pull begäran.
+            En pull begäran ber de ansvariga för repot att se över commitsen man har gjort, och sen merga ändringarna.
+            En pull händer när man lägger till ändringar till huvudgrenen.
+        </p>
+        <h2>Merge</h2>
+        <p>
+            När man tar ändringar från en gren och lägger till det i en annan kallas det för en Merge, vanligtsvis huvudgrenen.
+            Dessa commits läggs oftast först upp som en pull request innan de blir sammanslagna.
+        </p>
+        <h2>Lokalt vs Remote repo</h2>
+        <article>
+        <p>
+        Ett Remote repo är bättre när man ska arbeta i med andra.
+        Sen kan man altid klona från servern och arbeta lokalt.
+        </p>
+        <h2>Working directory</h2>
+        <p>
+            Generells sätt, är den nyaste versionen "working directory", alltså där man jobbar just nu.
+            varje fil man jobbar på, är här. Git upptäcker automatiskt ändringar.
+        </p>
+        <h2>Staging</h2>
+        <p>
+            Ett sätt att testa ändringar innan de läggs till i den faktiska GitHub Enterprise instansen.
+        </p>
+        <h2>Head</h2>
+        <p>
+            En speciell version av en gren, oftast den senaste commiten vid grenens spets.
+        </p>
+        <h2>Revert</h2>
+        <p>
+            När man Revertar en Pull request på GitHub, så öppnas automatiskt en ny pull begäran,
+            och den har en commit som Revertar merge commiten från den orginella merge begäran.
+            I Git kan man gå tillbaks med Git Revert.
+        </p>
+        <h2>Reset</h2>
+        <p>
+            Om man vill återställa det man jobbar på; alltså återställa till den senaste committen,
+            så kan man använda en reset.
+        </p>
+        <h2>Repository</h2>
+        <p>
+            Ett Repo är en plats där man lagrar all data i sitt projekt, på datorn eller i molnet
+        </p>
+        <h2>Branch</h2>
+        <p>
+            En Branch är en förgrening i hierarkin, man kan grena ut från huvudgrenen och
+            experimentera med olika ändringar där för att inte eventuellt förstöra hela projektet.
+        </p>
+        <h2>Clone</h2>
+        <p>
+            Man kan ladda ner ett repo från GitHub till sin hårddisk då Klonar man hela repot och
+            skapar en kopia lokalt.
+        </p>
+        <h2>Commit</h2>
+        <p>
+            Commit är när man "sparar" sitt arbete, men man måste "pusha" det för att det ska komma in i servern
+        </p>
+        <h2>Push</h2>
+        <p>
+            Uppdaterar grenen med ens commits man gjort på grenen man arbetar på.
+        </p>
+        <h2>Pull</h2>
+        <p>
+            Om någon har ändrat på något i en seperat gren och vill att det ska bli kollat på och tillagt i huvudgrenen,
+            så kan den personen lägga in en pull begäran.
+            En pull begäran ber de ansvariga för repot att se över commitsen man har gjort, och sen merga ändringarna.
+            En pull händer när man lägger till ändringar till huvudgrenen.
+        </p>
+        <h2>Merge</h2>
+        <p>
+            När man tar ändringar från en gren och lägger till det i en annan kallas det för en Merge, vanligtsvis huvudgrenen.
+            Dessa commits läggs oftast först upp som en pull request innan de blir sammanslagna.
+        </p>
+        <h2>Markdown</h2>
+        <p>
+            Markdown är ett sätt att styla text på webben genom att definera vanlig text med några icke alfabetiska karaktärer.
+            Markdown är vanligt i flera industrier och används ofta handel. 
+        </p>
+        <h2>Forking</h2>
+        <p>
+            Forking är ett koncept medan cloning är en process. Forking är att bara ärhålla en seperat kopia av repository och det är ingen kommand inkluderat. Cloning är gjort genom kommandot git cloning och är en process genom att få alla kod filerna.
+        </p>
+    </article>
+    <button><a href="../html/terms2.html"></a>Mer Terminologi!</button>
+    <button><a href="../index.html"></a>Jag vill hem! :C</button>
+</body>
+</html>
